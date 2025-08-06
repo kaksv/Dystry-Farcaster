@@ -1,13 +1,10 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/FavIcon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dystry Cap</title>
-    <meta
-  property="fc:frame"
-  content='{
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjgxMzMyMywidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweGVBOWY1MzM2MTg2NjdkMzY0RjdlMTc1NzA4QTg2MzY5Rjk4NzdFNzAifQ",
+    "payload": "eyJkb21haW4iOiJkeXN0cnktZmFyY2FzdGVyLnZlcmNlbC5hcHAifQ",
+    "signature": "MHhmZjA0MzllNzNiMDI3NDZkODc5OGIwNTZjMmM2ZTUxZjdhNjdkMjFlZTAzN2NhNWUwYmZiODBhMzhmMDdiNmM5NWRhOWM2N2YwYWUzYjg4MDViNTk4ZmVjMjE5N2FlN2ZiNGYyNTFmY2RlN2Y1YjFlNzlmOTE3MjU4Mjg3NGNkNjFj"
+  },
+  "frame": {
     "version": "1",
     "name": "Example Frame",
     "iconUrl": "https://dystry-farcaster.vercel.app/icon.png",
@@ -17,11 +14,5 @@
     "splashImageUrl": "https://dystry-farcaster.vercel.app/splash.png",
     "splashBackgroundColor": "#eeccff",
     "webhookUrl": "https://dystry-farcaster.vercel.app/api/webhook"
-  }'
-/>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-</html>
+  }
+}
